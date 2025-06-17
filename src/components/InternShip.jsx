@@ -9,13 +9,14 @@ const handleRedirect = (url) => {
 export default function InternShip() {
     const internShipExperience = [
         {
-            role: "PHP Developer",
-            company: "Wolfox",
-            duration: "Sep 2022 - Nov 2022",
-            description: "Completed a 2-month internship focused on PHP and SQL, gaining hands-on experience in backend development and database management. Gained practical experience in building dynamic web applications and integrating data-driven functionalities.",
-            skills: ["PHP", "MySQL", "HTML5 and CSS3", "Bootstrap 5", "Git", "GitHub"],
-            link: "https://wolfox.in/"
+            role: "Software Intern",
+            company: "Noitavoone",
+            duration: "Oct 2023 - Sep 2024",
+            description: "Completed an 11-month internship focused on front-end development using React and modern UI frameworks. Contributed to live projects, gained hands-on experience in integrating APIs, maintaining responsive designs, and collaborating in agile development teams.",
+            skills: ["React.js", "JavaScript", "HTML5 and CSS3", "Bootstrap 5", "Tailwind CSS", "Git", "GitHub"],
+            link: "https://noitavonne.in/"
         }
+
     ];
 
     return (

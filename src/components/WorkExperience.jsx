@@ -1,70 +1,95 @@
 import React from 'react';
 import { motion } from "framer-motion";
 import { ArrowUpRight } from 'lucide-react';
-import StreamDeck from "../assets/images/project/StreamDeck.png";
-import CarbonExchnage from "../assets/images/project/CarbonExchange.png";
-import QrImage from "../assets/images/project/QR.png";
-import DiverseImage from "../assets/images/project/DiverseServices.png";
-import Bluemoose from "../assets/images/project/BlueMoose.png";
+// import StreamDeck from "../assets/images/project/StreamDeck.png";
+// import CarbonExchnage from "../assets/images/project/CarbonExchange.png";
+// import QrImage from "../assets/images/project/QR.png";
+// import DiverseImage from "../assets/images/project/DiverseServices.png";
+// import Bluemoose from "../assets/images/project/BlueMoose.png";
+import DJLBoogieEnt from "../assets/images/project/Djboogieent.png";
+import IGTBOK from "../assets/images/project/IGTBOK.png";
+import Podcast from "../assets/images/project/Podcast.png";
+import AxiomWebControl from "../assets/images/project/Axiom_web_control.png";
 import TeamLeader from '../assets/images/icons/TeamLeader';
 import Fancybox from './lib/Fancybox';
 
 const workExperiences = [
     {
-        role: "SDE-I Developer",
-        company: "Ramee Systems",
-        duration: "Feb 2025 - Present",
-        description: "Building robust and scalable web applications with a focus on performance, security, and user experience. Implementing modern frontend architectures, optimizing database queries, and ensuring seamless API integrations. Collaborating with designers and backend teams to create intuitive, high-quality digital products that meet business and user needs.",
-        skills: ["React Js", "JavaScript", "PHP", "MySQL", "Laravel 10", "CodeIgniter 4", "Express Js", "Tailwind CSS", "Git", "GitHub", "Gitlab"],
-        link: "https://rameesystems.com"
-    },
-    {
-        role: "Full Stack Developer",
+        role: "React Developer",
         company: "Noitavonne",
-        duration: "Aug 2023 - Dec 2024",
-        description: "Designed and developed scalable web applications, focusing on optimizing user experience and system efficiency. Built reusable components, streamlined API integrations, and implemented best practices for code maintainability. Worked closely with cross-functional teams to deliver high-quality software solutions that aligned with business goals.",
-        skills: ["React Js", "JavaScript", "PHP", "MySQL", "Laravel 10", "CodeIgniter 3", "Express Js", "HTML5 and CSS3", "Bootstrap 5", "Tailwind CSS", "Git", "GitHub"],
-        link: "https://www.noitavonne.com"
+        duration: "Oct 2024 - Mar 2025",
+        description: "Worked as a React Developer on dynamic, responsive web applications with a focus on clean UI design and efficient state management. Integrated REST APIs, improved component reusability, and collaborated closely with backend developers to deliver high-performance solutions aligned with client requirements.",
+        skills: ["React.js", "JavaScript", "Tailwind CSS", "Bootstrap", "REST API", "Git", "GitHub"],
+        link: "https://noitavonne.in/"
     }
 ];
 
 
 const projects = [
+    // {
+    //     title: "StreamDeck & Tv",
+    //     description: "StreamDeck is a streaming management tool used for broadcasting and controlling live streams, integrating with TV.silocloud.io. It enables users to program and schedule content using EPG (Electronic Program Guide), providing a seamless streaming experience.",
+    //     skills: ["Team Leader", "React Js", "Laravel 10", "MySql", "FFmpeg", "RTMP", "WebRTC", "Node Js", "Socket.io"],
+    //     image: StreamDeck,
+    //     link: "https://streamdeck.silocloud.io/"
+    // },
+    // {
+    //     title: "CarbonExchange",
+    //     description: "Alexander’s Carbon Exchange is a blockchain-based platform enabling transparent carbon credit trading, connecting producers and buyers to promote sustainable practices and combat climate change for a greener future.",
+    //     skills: ["Html5 and CSS3", "JavaScript", "jQuery", "MySql", "MapBox API", "REGRID API"],
+    //     image: CarbonExchnage,
+    //     link: "https://carbonexchange.ai"
+    // },
+    // {
+    //     title: "QR Code Generator",
+    //     description: "The QR Code Generator allows users to create both static and dynamic QR codes for various purposes, enhancing digital interaction and accessibility. It provides an easy-to-use platform for generating QR codes that can be used for websites, and other applications.",
+    //     skills: ["Team Leader", "React Js", "Laravel 10", "MySql"],
+    //     image: QrImage,
+    //     link: "https://qr.silocloud.io/"
+    // },
+    // {
+    //     title: "DiverseServices",
+    //     description: "Diverse Multi Services, LLC offers comprehensive services, including tax preparation, bookkeeping, printing, and notary support, serving the DFW Metroplex and all 50 states to meet diverse community needs.",
+    //     skills: ["Team Leader", "React Js", "Laravel 10", "MySql"],
+    //     image: DiverseImage,
+    //     link: "https://diverseservices.com"
+    // },
+    // {
+    //     title: "BlueMoose API",
+    //     description: "Creating an API for bluemoose Tv that will generate subtitles of English Video and translate them using deep translate.",
+    //     skills: ["Team Leader", "React Js", "Laravel 10", "MySql", "Flask", "Python", "Open AI"],
+    //     image: Bluemoose,
+    //     link: "https://centera.live/"
+    // },
     {
-        title: "StreamDeck & Tv",
-        description: "StreamDeck is a streaming management tool used for broadcasting and controlling live streams, integrating with TV.silocloud.io. It enables users to program and schedule content using EPG (Electronic Program Guide), providing a seamless streaming experience.",
-        skills: ["Team Leader", "React Js", "Laravel 10", "MySql", "FFmpeg", "RTMP", "WebRTC", "Node Js", "Socket.io"],
-        image: StreamDeck,
-        link: "https://streamdeck.silocloud.io/"
+        title: "DJLBoogieEnt",
+        description: "A portfolio and booking platform for DJ services, offering an interactive user interface for event management, media showcase, and contact integration. Focused on responsive design and performance optimization.",
+        skills: ["React.js", "Bootstrap", "Responsive Design"],
+        image: DJLBoogieEnt,
+        link: "https://djlboogieent.com/"
     },
     {
-        title: "CarbonExchange",
-        description: "Alexander’s Carbon Exchange is a blockchain-based platform enabling transparent carbon credit trading, connecting producers and buyers to promote sustainable practices and combat climate change for a greener future.",
-        skills: ["Html5 and CSS3", "JavaScript", "jQuery", "MySql", "MapBox API", "REGRID API"],
-        image: CarbonExchnage,
-        link: "https://carbonexchange.ai"
+        title: "IGTBOK",
+        description: "A meaningful initiative aimed at helping victims of human trafficking through technology-driven resources. Built to offer information, support networks, and secure communication tools.",
+        skills: ["React.js", "Bootstrap", "REST API", "Websocket", "Express.js", "Mongodb", "MapBox API"],
+        image: IGTBOK,
+        link: "https://peaceful-lumiere.174-143-48-203.plesk.page/"
     },
     {
-        title: "QR Code Generator",
-        description: "The QR Code Generator allows users to create both static and dynamic QR codes for various purposes, enhancing digital interaction and accessibility. It provides an easy-to-use platform for generating QR codes that can be used for websites, and other applications.",
-        skills: ["Team Leader", "React Js", "Laravel 10", "MySql"],
-        image: QrImage,
-        link: "https://qr.silocloud.io/"
+        title: "Podcast Platform",
+        description: "A full-featured podcast streaming platform similar to Spotify. It includes user authentication, audio streaming, search functionality, and a mobile-friendly UI.",
+        skills: ["React.js", "Express.js", "JavaScript", "Bootstrap", "MongoDB"],
+        image: Podcast,
+        link: "https://podcast.silocloud.io/"
     },
     {
-        title: "DiverseServices",
-        description: "Diverse Multi Services, LLC offers comprehensive services, including tax preparation, bookkeeping, printing, and notary support, serving the DFW Metroplex and all 50 states to meet diverse community needs.",
-        skills: ["Team Leader", "React Js", "Laravel 10", "MySql"],
-        image: DiverseImage,
-        link: "https://diverseservices.com"
+        title: "Axiom Web Control",
+        description: "A dynamic platform for managing web services and internal workflows. Developed user interfaces for real-time controls and analytics, improving efficiency for service teams.",
+        skills: ["React.js", "Express.js", "REST APIs", "Tailwind CSS", "DashLite"],
+        image: AxiomWebControl,
+        link: "https://axiomwebcontrol.com/"
     },
-    {
-        title: "BlueMoose API",
-        description: "Creating an API for bluemoose Tv that will generate subtitles of English Video and translate them using deep translate.",
-        skills: ["Team Leader", "React Js", "Laravel 10", "MySql", "Flask", "Python", "Open AI"],
-        image: Bluemoose,
-        link: "https://centera.live/"
-    }
+
 ];
 
 // Function to handle redirection

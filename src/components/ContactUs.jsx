@@ -51,7 +51,7 @@ export default function ContactUs() {
                 </small>
                 <div className="contact-content mt-2">
                     <form
-                        action="https://formspree.io/f/mgegeqjq"
+                        action="https://formspree.io/f/xwpbqeop"
                         autoComplete="off"
                         className="contact-form row"
                         method="POST"

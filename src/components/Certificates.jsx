@@ -1,8 +1,8 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import ResponsiveWeb from "../assets/images/certificates/ResponsiveWeb.png";
-import ReactCertificate from "../assets/images/certificates/React.jpg";
-import Tanstack from "../assets/images/certificates/TanstackQuery.jpg";
+import ResponsiveWeb from "../assets/images/certificates/responsive-karan.png";
+import ReactCertificate from "../assets/images/certificates/React-karan.png";
+import Tanstack from "../assets/images/certificates/tanstack-karan.png";
 import Fancybox from './lib/Fancybox';
 
 export default function Certificates() {

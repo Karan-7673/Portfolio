@@ -5,8 +5,9 @@ import HeroImage from "../assets/images/new_avatar.png";
 export default function Hero() {
     const texts = [
         "Hi, I'm",
-        "नमस्कार, अहं",
-        "Привет, я",
+        "Hello I'm"
+        // "नमस्कार, अहं",
+        // "Привет, я",
     ];
 
 
@@ -56,7 +57,7 @@ export default function Hero() {
                         </div>
                         <div className="hero-description mt-1">
                             <span className="description-text text-muted">
-                                Full Stack Developer | Crafting scalable, user-centric web solutions.
+                                React Developer | Crafting scalable, user-centric web solutions.
                             </span>
                         </div>
                     </motion.div>
@@ -68,7 +69,7 @@ export default function Hero() {
                         transition={{ duration: 0.5, ease: "easeOut" }}
                     >
                         <span className="image-container">
-                            <img className="profile-image undraggable" alt="My Image" src={HeroImage} />
+                            {/* <img className="profile-image undraggable" alt="My Image" src={HeroImage} /> */}
                         </span>
                     </motion.div>
                 </div>

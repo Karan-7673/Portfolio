@@ -53,17 +53,17 @@ export default function PersonalLinks() {
                 id="github"
                 icon={(props) => <Github strokeWidth={1.25} {...props} />}
                 tooltipText="GitHub"
-                linkTo="//github.com/PrathameshBelvalkar"
+                linkTo="//github.com/Karan-7673"
                 useAnchor={true}
             />
             <IconWithTooltip
                 id="linkedin"
                 icon={(props) => <Linkedin strokeWidth={1.25} {...props} />}
                 tooltipText="LinkedIn"
-                linkTo="//www.linkedin.com/in/prathamesh-belvalkar-83b72a267/"
+                linkTo="//www.linkedin.com/in/karan-dakave-064b0a270/"
                 useAnchor={true}
             />
-            <IconWithTooltip
+            {/* <IconWithTooltip
                 id="stories"
                 icon={(props) =>
                     location.pathname !== '/' ? (
@@ -75,12 +75,12 @@ export default function PersonalLinks() {
                 tooltipText={location.pathname !== '/' ? "Home" : "Blog"}
                 linkTo={location.pathname !== '/' ? '/' : '/blog'}
                 useAnchor={false}
-            />
+            /> */}
             <IconWithTooltip
                 id="download"
                 icon={(props) => <Paperclip strokeWidth={1.25} {...props} />}
                 tooltipText="Download Resume"
-                linkTo="/prathamesh_belvalkar_2025.pdf"
+                linkTo="../../public/karandakave_2025.pdf"
                 useAnchor={true}
             />
         </div>

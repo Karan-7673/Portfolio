@@ -81,14 +81,14 @@ export default function PersonalLinkDown() {
                 id="github-small"
                 icon={() => <Github strokeWidth={1.25} />}
                 tooltipText="GitHub"
-                linkTo="https://github.com/PrathameshBelvalkar"
+                linkTo="https://github.com/Karan-7673"
                 useAnchor={true}
             />
             <IconWithTooltip
                 id="linkedin-small"
                 icon={() => <Linkedin strokeWidth={1.25} />}
                 tooltipText="LinkedIn"
-                linkTo="https://www.linkedin.com/in/prathamesh-belvalkar-83b72a267/"
+                linkTo="https://www.linkedin.com/in/karan-dakave-064b0a270/"
                 useAnchor={true}
             />
             <IconWithTooltip
@@ -127,7 +127,7 @@ export default function PersonalLinkDown() {
                 tooltipText={
                     isBlogDetailsRoute ? "Go to Blog" : "Download Resume"
                 }
-                linkTo={isBlogDetailsRoute ? "/blog" : "/prathamesh_belvalkar_2025.pdf"}
+                linkTo={isBlogDetailsRoute ? "/blog" : "/karandakave_2025"}
                 useAnchor={!isBlogDetailsRoute}
             />
         </div>

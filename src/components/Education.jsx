@@ -1,30 +1,30 @@
 import React from 'react'
 import { motion } from "framer-motion";
-import KitImer from "../assets/images/kitImer.jpg";
+import Dypatil from "../assets/images/dypatilcoll.jpg";
 import NewCollege from "../assets/images/new_college.jpg";
 import School from "../assets/images/school.png";
 
 const educationData = [
     {
         id: 1,
-        image: KitImer,
-        school: "Kolhapur Institute of Technology",
+        image: Dypatil,
+        school: "D.Y.Patil Technical University ",
         degree: "Master's of Computer Application",
-        year: "2021 - 2023",
+        year: "2022 - 2024",
     },
     {
         id: 2,
         image: NewCollege,
         school: "The New College",
-        degree: "Bachelor's of Computer Science",
-        year: "2018 - 2021",
+        degree: "Bachelor's of Science",
+        year: "2019 - 2022",
     },
     {
         id: 3,
         image: School,
         school: "S.M Lohia Jr. College",
         degree: "12th Board",
-        year: "2017 - 2018",
+        year: "2018 - 2019",
     },
     {
         id: 4,

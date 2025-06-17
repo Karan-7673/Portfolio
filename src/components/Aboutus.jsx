@@ -11,7 +11,7 @@ export default function Aboutus() {
                 <h2 className='headline-text'>About</h2>
                 <div className="about-content">
                     <p className='text-muted'>
-                        Passionate Full Stack Developer with around 2 years of hands-on experience in building user-focused web applications and services. A proactive team leader and problem solver, skilled in driving projects forward and ensuring successful outcomes. Focused on delivering exceptional user experiences while fostering collaboration and continuous innovation in development.
+                        Passionate React Developer with hands-on experience in crafting responsive, user-centric web applications. Proficient in modern frontend technologies including React.js, Tailwind CSS, Bootstrap, and API integration. Known for delivering clean UI, scalable components, and seamless user experiences. A proactive learner and effective collaborator, committed to continuous improvement and building meaningful digital products.
                     </p>
                 </div>
             </motion.div>

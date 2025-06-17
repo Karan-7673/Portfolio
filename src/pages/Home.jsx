@@ -11,11 +11,11 @@ export default function Home() {
     return (
         <>
             <Helmet>
-                <title>Home - Prathamesh Belvalkar</title>
-                <meta name="description" content="Welcome to the portfolio of Prathamesh Belvalkar, a Full Stack Developer specializing in React JS, Laravel, and CodeIgniter." />
-                <meta name="keywords" content="Full Stack Developer, React JS, Laravel, CodeIgniter, Portfolio" />
-                <meta property="og:title" content="Home - Prathamesh Belvalkar" />
-                <meta property="og:description" content="Explore the portfolio of Prathamesh Belvalkar, showcasing expertise in web development and scalable solutions." />
+                <title>Home - Karan Dakave</title>
+                <meta name="description" content="Welcome to the portfolio of Karan Dakave, a React Developer passionate about building responsive and scalable web applications." />
+                <meta name="keywords" content="React Developer, Frontend Developer, Web Developer, JavaScript, Tailwind, Bootstrap, API Integration, Karan Dakave Portfolio" />
+                <meta property="og:title" content="Home - Karan Dakave" />
+                <meta property="og:description" content="Explore the portfolio of Karan Dakave, showcasing React projects, UI/UX skills, and web development expertise." />
                 <meta property="og:image" content="/meta_image.jpg" />
                 <meta property="og:url" content="https://prathameshportfolio.vercel.app/" />
             </Helmet>
