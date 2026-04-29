@@ -1,5 +1,4 @@
-import React from 'react'
-import chillGuy from "../assets/images/chill_guy.png";
+
 export default function ErrorPage() {
     return (
         <>

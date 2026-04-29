@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
-import { FormFeedback } from 'reactstrap';
 import { toast } from 'react-toastify';
 export default function ContactUs() {
     const [formData, setFormData] = useState({

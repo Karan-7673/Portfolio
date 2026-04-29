@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from "framer-motion";
 export default function Aboutus() {
     return (
@@ -10,8 +9,11 @@ export default function Aboutus() {
             >
                 <h2 className='headline-text'>About</h2>
                 <div className="about-content">
-                    <p className='text-muted'>
-                        Passionate React Developer with hands-on experience in crafting responsive, user-centric web applications. Proficient in modern frontend technologies including React.js, Tailwind CSS, Bootstrap, and API integration. Known for delivering clean UI, scalable components, and seamless user experiences. A proactive learner and effective collaborator, committed to continuous improvement and building meaningful digital products.
+                    <p className=''>
+                        I’m a Web Developer who builds fast, responsive, and user-focused web applications. With experience in developing real-world platforms like marketing automation tools, I focus on creating clean UI, scalable components, and seamless user experiences. I enjoy solving problems through code and helping turn ideas into meaningful digital products.
+                    </p>
+                    <p>
+                        I specialize in building complex UI systems like email template builders, dynamic editors, and scalable frontend architectures using React and TypeScript. I focus on performance, clean UI, and cross-platform compatibility (including email clients like Gmail & Outlook).
                     </p>
                 </div>
             </motion.div>

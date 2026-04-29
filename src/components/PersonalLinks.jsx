@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { BookText, Github, House, Instagram, Linkedin, Mail, Paperclip } from 'lucide-react';
+import { Github, Linkedin, Paperclip } from 'lucide-react';
 import { Tooltip } from 'reactstrap'; // Import Tooltip from reactstrap
+import { useState } from 'react';
 
 // Reusable Tooltip Component
 const IconWithTooltip = ({ id, icon, tooltipText, linkTo, useAnchor }) => {

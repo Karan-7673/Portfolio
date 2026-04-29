@@ -216,11 +216,11 @@ export default function BlogDetails() {
     return (
         <>
             <Helmet>
-                <title>{blogData?.title || "Blog Details"} - Prathamesh Belvalkar</title>
+                <title>{blogData?.title || "Blog Details"} - Karan Dakave</title>
                 <meta name="description" content={blogData?.description || "Read detailed blog content"} />
                 <meta property="og:title" content={blogData?.title || "Blog Details"} />
                 <meta property="og:description" content={blogData?.description || "Read detailed blog content"} />
-                <meta property="og:url" content={`https://prathameshportfolio.vercel.app/blog/${title}`} />
+                <meta property="og:url" content={`https://karandakave.vercel.app/blog/${title}`} />
             </Helmet>
             <div id="editorjs"></div>
         </>

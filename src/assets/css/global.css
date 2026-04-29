@@ -391,3 +391,39 @@ body {
 .yoopta-button:hover {
     background-color: var(--editor-action-buttons) !important;
 } */
+
+
+
+/* Technology */
+.technology-card {
+    background: var(--card-bg);
+    border-radius: 16px;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--card-border);
+    transition: all 0.3s ease;
+}
+
+.technology-card:hover {
+    border: 1px solid var(--card-border-hover);
+    box-shadow: 0 10px 30px var(--card-shadow);
+}
+
+.technology-image {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+}
+
+/* .headline-text {
+    font-size: 32px;
+    font-weight: 700;
+    color: #111;
+} */
+
+.text-primary-custom {
+    color: var(--text-primary);
+}
+
+.text-secondary-custom {
+    color: var(--text-secondary);
+}

@@ -52,12 +52,12 @@ export default function Hero() {
                                 {texts[currentTextIndex]}
                             </motion.span>
                             <br />
-                            <span className="title-text display-4">Karan</span>
+                            <span className="title-text display-4">Karan Dakave</span>
                             <span className="wavy-hand title-text display-4">👋</span>
                         </div>
                         <div className="hero-description mt-1">
                             <span className="description-text text-muted">
-                                React Developer | Crafting scalable, user-centric web solutions.
+                                Web Developer | Crafting scalable, user-centric web solutions.
                             </span>
                         </div>
                     </motion.div>

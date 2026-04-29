@@ -1,5 +1,3 @@
-import { ChevronLeft, ChevronRight } from 'lucide-react';
-import React from 'react';
 import { motion } from "framer-motion";
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
@@ -81,12 +79,12 @@ export default function Blog() {
     return (
         <div className='stories'>
             <Helmet>
-                <title>Blogs - Prathamesh Belvalkar</title>
+                <title>Blogs - Karan Dakave</title>
                 <meta name="description" content="Explore a collection of insightful blogs on Artificial Intelligence, Technology, and more. Stay updated with the latest trends and innovations." />
                 <meta name="keywords" content="Blogs, Artificial Intelligence, Technology, Web Development, Programming" />
-                <meta property="og:title" content="Blogs - Prathamesh Belvalkar" />
+                <meta property="og:title" content="Blogs - Karan Dakave" />
                 <meta property="og:description" content="Discover blogs on AI, technology, and programming. Stay informed with the latest updates and trends." />
-                <meta property="og:url" content="https://prathameshportfolio.vercel.app/blog" />
+                <meta property="og:url" content="https://karandakave.vercel.app/blog" />
             </Helmet>
             <h1 className='display-4 fw-bold m-0'>Blogs</h1>
             <span className='text-muted'>Last updated at . 27 December 2024 . {blogData.length} stories</span>
